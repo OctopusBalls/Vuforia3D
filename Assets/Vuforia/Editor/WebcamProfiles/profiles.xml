@@ -52,7 +52,7 @@
             <!-- size of the texture Unity's web cam texture will be rescaled to -->
             <resampledTextureWidth>640</resampledTextureWidth>
         </windows>
-	<osx>
+	      <osx>
             <!-- size of the web cam texture requested from Unity -->
             <requestedTextureWidth>640</requestedTextureWidth>
             <requestedTextureHeight>480</requestedTextureHeight>
@@ -226,6 +226,40 @@
             <!-- size of the web cam texture requested from Unity -->
             <requestedTextureWidth>640</requestedTextureWidth>
             <requestedTextureHeight>480</requestedTextureHeight>
+            <!-- size of the texture Unity's web cam texture will be rescaled to -->
+            <resampledTextureWidth>640</resampledTextureWidth>
+        </windows>
+        <osx>
+            <!-- size of the web cam texture requested from Unity -->
+            <requestedTextureWidth>1280</requestedTextureWidth>
+            <requestedTextureHeight>720</requestedTextureHeight>
+            <!-- size of the texture Unity's web cam texture will be rescaled to -->
+            <resampledTextureWidth>640</resampledTextureWidth>
+        </osx>
+    </webcam>
+  
+    <!-- Lenovo Miix720 Settings -->
+    <webcam deviceName="World Facing Right">
+        <windows>
+            <!-- size of the web cam texture requested from Unity -->
+            <requestedTextureWidth>1920</requestedTextureWidth>
+            <requestedTextureHeight>1080</requestedTextureHeight>
+            <!-- size of the texture Unity's web cam texture will be rescaled to -->
+            <resampledTextureWidth>640</resampledTextureWidth>
+        </windows>
+        <osx>
+            <!-- size of the web cam texture requested from Unity -->
+            <requestedTextureWidth>1920</requestedTextureWidth>
+            <requestedTextureHeight>1080</requestedTextureHeight>
+            <!-- size of the texture Unity's web cam texture will be rescaled to -->
+            <resampledTextureWidth>640</resampledTextureWidth>
+        </osx>
+    </webcam>
+    <webcam deviceName="EasyCamera">
+        <windows>
+            <!-- size of the web cam texture requested from Unity -->
+            <requestedTextureWidth>1280</requestedTextureWidth>
+            <requestedTextureHeight>720</requestedTextureHeight>
             <!-- size of the texture Unity's web cam texture will be rescaled to -->
             <resampledTextureWidth>640</resampledTextureWidth>
         </windows>
